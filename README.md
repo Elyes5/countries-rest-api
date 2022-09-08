@@ -21,8 +21,8 @@ Users should be able to:
 ![](./public/screenshot-rest-api.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Elyes5/countries-rest-api)
+- Live Site URL: [CountryChecker](https://countries-checker.netlify.app/)
 
 ## My process
 
