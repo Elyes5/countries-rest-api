@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.light-gray{
+ background : hsl(0, 0%, 97%);
+}
+.text-light-gray{
+  color : hsl(0, 0%, 70%);
+ }
+ 
+
+.ff-NS-300{
+  font-family :Nunito Sans;
+  font-weight: 300;
+}
+.ff-NS-600{
+  font-family :Nunito Sans;
+  font-weight: 600;
+}
+.ff-NS-800{
+  font-family :Nunito Sans;
+  font-weight: 800;
+}
+select option{
+  padding:6px;
+}
+body{
+  min-height:100vh;
+}
+#root{
+  min-height:100vh;
+}
+.h-100-vh{
+  min-height: 100vh;
+}
+.top-18{
+  top:4.32rem;
+}
+.bg-dark-gray-c{
+  background:hsl(200, 15%, 8%);
+  transition:0.3s;
+}
+.bg-dark-blue{
+background :hsl(207, 26%, 17%);
+transition:0.3s;
+}
+.elem-dark-blue{
+  background : hsl(209, 23%, 22%) !important;
+  transition:0.3s;
+}
+.text-dark-gray-c{
+  color :hsl(200, 15%, 8%);
+  transition:0.3s;
+}
+.text-dark-gray-c1{
+  transition:0.3s;
+  color : hsl(0, 0%, 52%)
+}
+.bg-white{
+  transition:0.3s;
+  background-color: white;
+}
+.shadow-c-white{
+  box-shadow: -1px 2px 15px -3px hsl(0, 0%, 52%);
+}
+.shadow-c-dark{
+  box-shadow: -1px 2px 15px -3px black;
+}
